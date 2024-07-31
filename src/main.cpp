@@ -12,7 +12,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     cv::Mat img = cv::imread("still/keiba.png", cv::IMREAD_COLOR);
     if (img.empty()) {
-        std::cout << "Could not open or find the image" << std::endl;
+        std::cout << "Could not open or find the images" << std::endl;
         return -1;
     }
     cv::imshow("Display window", img);
